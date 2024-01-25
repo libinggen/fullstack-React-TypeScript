@@ -69,3 +69,17 @@ Customize the default import alias? No
 cd frontend
 npm i axios
 npm run dev
+
+frontend/src/app/globals.css
+frontend/src/components/CardComponent.tsx
+frontend/src/app/page.tsx
+"use client";
+frontend/next.config.js
+frontend/.dockerignore
+frontend/frontend.dockerfile
+
+compose.yaml
+
+docker compose build
+docker compose up -d frontend
+docker ps -a
